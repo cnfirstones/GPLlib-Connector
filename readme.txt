@@ -30,8 +30,7 @@ No other site data is reported. The site token is stored server-side only and is
 == Installation ==
 
 1. Upload to `/wp-content/plugins/gpllib-connector` (conventional path).
-2. Developers: run `cd admin && npm install && npm run build` to build the frontend assets.
-3. Activate the plugin, then go to the "GPLlib Auto Update" menu to activate your license.
+2. Activate the plugin, then go to the "GPLlib Auto Update" menu to activate your license.
 
 == Changelog ==
 
