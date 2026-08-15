@@ -1,0 +1,21 @@
+# 依赖（构建工具链，不分发）
+/admin/node_modules/
+
+# Vite 本地缓存
+/admin/.vite/
+/admin/dist/.vite/deps/
+
+# 注意：/admin/dist/ 构建产物**纳入版本控制**——插件分发后用户无需 npm 构建即可用
+#（Settings.php 依赖 admin/dist/.vite/manifest.json）
+
+# 环境 / 密钥
+.env
+*.local
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.idea/
+.vscode/
